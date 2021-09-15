@@ -1,0 +1,108 @@
+:root{
+color:white;
+text-align: center;
+}
+
+body{
+    background-color: #5DA449;
+    font-family: sans-serif;
+    /*display: flex;*/
+}
+
+h1{
+    font-family: 'Autour One', cursive;
+}
+
+img{
+    justify-content: center;
+}
+
+div{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+#listPlanets{
+    background-color: #e0e0e0;
+    width: 10%
+}
+
+
+ol {
+    margin-left: -20px;
+    margin-top: 0;
+    counter-reset: item;
+    list-style-type: none;
+  }
+
+  li {
+    counter-increment: item;
+  }
+  
+
+  /*
+  li:before {
+    margin-right: 10px;
+    content: counter(item);
+    background-color: #999;
+    color: #D5D5D5;
+    width: 1.2em;
+    float: left;
+  }
+  */
+
+  .line-numbers {
+    padding: 10px 6px;
+    text-align: left;
+    background-color: #999;
+    color: #D5D5D5;
+    width: 1%;
+    display: inline-block;
+  }
+
+  p{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  #wrapper {
+      display: flex
+  }
+
+  #incButton{
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+  }
+
+  #decButton{
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #555;
+    background-color: #5DA449;
+  }
+
+  button{
+      padding: 0px;
+      border: none;
+      background-color: #5DA449;
+  }
+
+  .spacing{
+      width: 10px;
+  }
+
+  #number{
+      width: 10px;
+      font-size: x-large;
+  }
+
+  #flexy{
+      display: flex;
+      justify-content: space-evenly;
+  }
